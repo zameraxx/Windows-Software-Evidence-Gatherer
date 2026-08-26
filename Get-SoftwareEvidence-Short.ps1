@@ -1,3 +1,8 @@
+# SUPERSEDED by Get-SoftwareEvidence.bat / .ps1 / -Legacy.vbs (see README.md), which
+# cover Windows 2000 through current and consolidate output to one CSV + one Summary.txt
+# instead of the several CSVs below. Kept here unmodified for anyone with automation
+# built against its old multi-file output; Palisade still ingests that output too.
+#
 # Software inventory evidence - standalone Windows 10 laptop. Run ELEVATED.
 # Output: CSVs + Summary.txt on the Desktop. No network calls. No Win32_Product.
 
